@@ -17,6 +17,7 @@ font-family: 'Poppins',sans-serif;}
   display:inline-block;
   justify-content:space-between;
   padding:20px;
+  
 }
 .img-area{
   height:200px;
@@ -38,7 +39,7 @@ p{
 h2{
   font-size: 20px;
   font-weight: 600;
-  color:#e74c3c;
+  color:#a6ff4d;
   line-height:20px
 }
  p{
@@ -52,7 +53,7 @@ h2{
   margin:10px 0;
 }
 .btn button {
-  background:#e74c3c;
+  background:#a6ff4d;
   color:#fff;
   border:none;
   outline:none;

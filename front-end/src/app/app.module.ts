@@ -12,6 +12,8 @@ import { CardsComponent } from './components/cards/cards.component';
 import { AboutComponent } from './components/about/about.component';
 import { ToprecetteComponent } from './components/toprecette/toprecette.component';
 import { MembresComponent } from './components/membres/membres.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 
@@ -23,7 +25,9 @@ import { MembresComponent } from './components/membres/membres.component';
     CardsComponent,
     AboutComponent,
     ToprecetteComponent,
-    MembresComponent
+    MembresComponent,
+    ContactComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

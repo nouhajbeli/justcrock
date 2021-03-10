@@ -1,7 +1,14 @@
+
+#expert {
+  background: #eee !important;
+  margin:100px 100px 100px   100px;
+  padding: 60px 0;
+
+}
 .btn{
   font-size:1em;
   color:#fff;
-  background:#ff0157;
+  background:#a6ff4d;
   display: inline-block;
   padding:10px 30px;
   margin-top:20px;
@@ -14,6 +21,7 @@
 {
 Letter-spacing:6px;
 }
+
 .titleText{
   color:#111;
   font-size:2em;
@@ -21,7 +29,7 @@ Letter-spacing:6px;
   text-align:left;
 }
 .titleText span{
-  color:#ff0157;
+  color:#a6ff4d;
   font-weight:700;
   font-size:1.5em;
   text-align:left;
@@ -72,3 +80,23 @@ padding:15px 0 5px;
 {
 font-weight:400;
 color:#111}
+@media (max-width:991px){
+  .menu .content{
+    margin-top:20px;
+  }
+  .menu .content .box{
+   margin:10px;
+  }
+  .menu .content .box .imgBx{
+    height:260px;
+   }
+   .title{
+     text-align:center ;
+   }
+   .titleText {
+     font-size:1.8em;
+     line-height: 1.5em;
+     margin-bottom: 15px;
+     font-weight: 300;
+   }
+}

@@ -1,8 +1,27 @@
 
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-#team {
+#expert {
     background: #eee !important;
+    margin:100px 100px 100px   100px;
+
 }
+.btn{
+  font-size:1em;
+  color:#fff;
+  background:#a6ff4d;
+  display: inline-block;
+  padding:10px 30px;
+  margin-top:20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  Letter-spacing:2px;
+  transition:2s
+}
+.btn:hover
+{
+Letter-spacing:6px;
+}
+
 
 .btn-primary:hover,
 .btn-primary:focus {
@@ -148,7 +167,7 @@ section .section-title {
   text-align:left;
 }
 .titleText span{
-  color:#ff0157;
+  color:#a6ff4d;
   font-weight:700;
   font-size:1.5em;
   text-align:left;
